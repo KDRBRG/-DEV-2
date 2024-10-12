@@ -143,6 +143,21 @@ JavaScript işlem süresi: 5.780
  Milisaniye
 
 
+ using System;
+ using System.Diagnostics;
+ class Program
+ {
+ static void Main()
+ {
+ Stopwatch stopwatch = new Stopwatch();
+ stopwatch.Start();
+ Console.WriteLine("Merhaba MIS, algoritma ve programlama dersi başladı");
+ stopwatch.Stop();
+ Console.WriteLine($"C# işlem süresi: {stopwatch.Elapsed.TotalSeconds} saniye");
+ }
+ }
+
+
 
 
 
