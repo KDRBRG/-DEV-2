@@ -2,6 +2,7 @@
 PROGRAMLAMA DİLLERİNİN İŞLEM SÜRELERİ
 
 1.)C++
+
 #include <iostream>
  #include <ctime>
  int main() {
@@ -19,6 +20,7 @@ Sonuç: merhaba MIS,algoritma ve programlma
 C++işlem süresi:1.5e-05saniye
 
 2.) C
+
 #include <stdio.h>
 #include <time.h>
 
@@ -35,6 +37,7 @@ SONUÇ: Merhaba MIS,algoritma ve programlama
 C işlem süresi:0.003730 saniye
 
 3.) PYTHON
+
 import time
  start = time.time()
  print("Merhaba MIS, algoritma ve programlama
@@ -46,6 +49,7 @@ SONUÇ:Merhaba MIS,algoritma ve programlama dersi başladı
 python işlem süresi :2.5033950805664062e-05 saniye
 
 4.) JAVA
+
 public class Main {
     public static void main(String[] args) {
         long startTime =System.nanoTime();
@@ -63,6 +67,7 @@ SONUÇ: Merhaba MIS,algoritma ve programlama dersi başladı
 Java işlem süresi:0.407749milisaniye
 
 5.)C#
+
 using System;
 using System.Diagnostics;
 
@@ -84,6 +89,7 @@ SONUÇ: Merhaba MIS,algoritma ve programlma dersi başladı
 C# işlem süresi: 0.0382918saniye
 
 6.) PERL
+
 use Time::HiRes qw(time);
  my $start = time();
  print "Merhaba MIS, algoritma ve programlama\n";
@@ -93,6 +99,7 @@ use Time::HiRes qw(time);
 SONUÇ: Merhaba MIS, algoritma ve programlamaPerl işlem süresi: 0.000013 saniye
 
 7.)RUBY
+
 start = Time.now
  puts "Merhaba MIS, algoritma ve programlama"
  finish = Time.now
@@ -102,6 +109,7 @@ SONUÇ: Merhaba MIS, algoritma ve programlama
 Ruby işlem süresi: 1.7114e-05 saniye
 
 8.) RUST
+
 use std::time::Instant;
  fn main() {
  let start = Instant::now();
@@ -114,6 +122,7 @@ use std::time::Instant;
 Rust işlem süresi: 9.554µs
 
 9.) GO
+
 package main
  import (
  "fmt"
@@ -130,6 +139,7 @@ SONUÇ: Merhaba MIS, algoritma ve programlama
 Go işlem süresi: 56.827µs saniye
 
 10.) JAVASCRİPT
+
 const startTime = process.hrtime();
  console.log("Merhaba MIS, algoritma ve programlama dersi
  başladı");
